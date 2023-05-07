@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background-color: #eee;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .card-header h2 {
+        font-size: 20px;
+    }
+
+    .card-body p {
+        font-size: 18px;
+    }
+}

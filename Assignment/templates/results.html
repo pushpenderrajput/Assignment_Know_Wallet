@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT Integration - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Results</h1>
+        <div class="card">
+            <div class="card-header">
+                <h2>You asked:</h2>
+            </div>
+            <div class="card-body">
+                <p>{{ question }}</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h2>ChatGPT's response:</h2>
+            </div>
+            <div class="card-body">
+                <p>{{ message }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
